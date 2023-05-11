@@ -1,0 +1,50 @@
+
+ul li:nth-child(3)>a{
+    border-bottom: 3px solid #ffffff;
+    padding: 5px 10px;
+    color: #ffffff;
+}
+.pos_a{
+    display: flex;
+    width: 57%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form>*:not(textarea){
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 100px;
+}
+.btn{
+    background: #dc2a87;
+    color: #eeeeee;
+}
+.a{
+    position: relative;
+    background: #eeeeee;
+}
+.b{
+    width: 100vw;
+}
+.pos_b{
+    margin:0 auto 40px;
+    width: 850px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.titre{
+    margin:0 auto;
+    width: 798px;
+}
+.gallerie{
+    display: flex;
+    flex-direction: column;
+}
+.gallerie .cercle{
+    background: #d8d8d8;
+    width: 180px;
+    height: 180px;
+}

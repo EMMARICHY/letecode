@@ -1,0 +1,88 @@
+* {
+    font-family: Roboto, Arial, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100vw;
+    background: #0f2243;
+    padding: auto;
+}
+
+header .logo,
+header ul,
+.pos_nav {
+    display: flex;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.pos_nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 850px;
+    margin: 0 auto;
+    width: 85%;
+}
+
+nav ul>li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #ffffffcc;
+    text-decoration: none;
+    margin: 0 20px;
+    flex-wrap: none;
+}
+
+header .logo img {
+    width: 5.8rem;
+}
+
+.accueil {
+    width: 100vw;
+}
+.accueil .pos_acceuil{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    position: sticky;
+    top:100
+}
+.contacter {
+    border-radius: 50px;
+    background-color: #dc2a87;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-top: 10px;
+    color: #eeeeee;
+}
+
+footer{
+    position: sticky;
+    top: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    background-color:#0f2243;
+}
+.foote_contenair{
+    color: #f0f8ff;
+    width: 85%;
+    max-width: 1700px;
+    margin: 0 auto;
+}

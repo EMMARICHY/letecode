@@ -1,0 +1,47 @@
+.contenair{
+    width: 85%;
+    max-width:850px ;
+    margin: 0 auto;
+}
+ul li:nth-child(4)>a{
+    border-bottom: 3px solid #ffffff;
+    padding: 5px 10px;
+    color: #ffffff;
+}
+/* .contenair{
+    max-width: 1300px;
+    margin: 50px;
+} */
+
+.form-item{
+    display: flex;
+}
+.form-item div,
+.form-textarea{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.color-gris,
+select,
+textarea{
+    background-color: #eeee;
+    border-radius: 5px;
+    height: 30px;
+}
+textarea{
+    height: 150px;
+}
+.color-pick{
+    background-color: #dc2a87;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+label{
+    margin-bottom: 15px;
+}   
