@@ -37,7 +37,7 @@ form>*:not(textarea){
 }
 .titre{
     margin:0 auto;
-    width: 798px;
+    width: 800px;
 }
 .gallerie{
     display: flex;
@@ -45,6 +45,9 @@ form>*:not(textarea){
 }
 .gallerie .cercle{
     background: #d8d8d8;
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
+}
+em{
+    color:#1311116d ;
 }
